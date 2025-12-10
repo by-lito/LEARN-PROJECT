@@ -4,18 +4,18 @@
     <item
         android:id="@+id/opcion_a"
         android:orderInCategory="100"
-        android:title="Opción de menú A"
+        android:title="ZELDA"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/opcion_b"
         android:orderInCategory="200"
-        android:title="Opción de menú B"
+        android:title="METROID"
         app:showAsAction="never" />
 
     <item
         android:id="@+id/opcion_c"
         android:orderInCategory="300"
-        android:title="Opción de menú C"
+        android:title="ANGEL"
         app:showAsAction="never" />
 </menu>

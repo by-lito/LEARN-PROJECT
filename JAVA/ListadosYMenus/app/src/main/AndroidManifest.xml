@@ -135,7 +135,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActividad9"
+            android:name=".ejercicios.Ej69"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

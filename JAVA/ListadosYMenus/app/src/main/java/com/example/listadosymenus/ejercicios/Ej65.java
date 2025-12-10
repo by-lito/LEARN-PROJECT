@@ -20,9 +20,7 @@ import java.util.ArrayList;
 
 public class Ej65 extends AppCompatActivity {
 
-    TextView tvTitle;
-    TextView tvDescription;
-    ImageView img;
+   
     ListView lv;
 
     @Override
@@ -31,9 +29,6 @@ public class Ej65 extends AppCompatActivity {
         setContentView(R.layout.actividad5_layout);
 
         lv = findViewById(R.id.listViewComplejo);
-        tvTitle = findViewById(R.id.textViewNombre);
-        tvDescription = findViewById(R.id.textViewDescripcion);
-        img = findViewById(R.id.imageViewVideogame);
 
         ArrayList<Videogame> videogames = new ArrayList<>();
 
