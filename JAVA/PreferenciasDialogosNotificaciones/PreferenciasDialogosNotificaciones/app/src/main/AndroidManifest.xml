@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PreferenciasDialogosNotificaciones">
+
+        <!-- LAUNCHER PRINCIPAL -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -20,91 +23,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!--EJEMPLO PREFERENCIAS -->
-        <activity
-            android:name=".PreferenciasActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--EJEMPLO PREFERENCIAS -->
-        <activity android:name=".OpcionesPreferencias" />
-        <!--ACTIVIDAD 1 -->
-        <activity
-            android:name=".MainActividad1"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.action.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--ACTIVIDAD 1 -->
-        <activity
-            android:name=".PreferenciasAppActivity"
-            android:label="PROGRAMACIÓN MULTIMEDIA" />
-        <!--EJEMPLO TOAST -->
-        <activity
-            android:name=".ToastActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--ACTIVIDAD 2 -->
-        <activity
-            android:name=".MainActividad2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--EJEMPLO DIALOGO -->
-        <activity
-            android:name=".DialogoActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
-        <!--ACTIVIDAD 4 -->
-        <activity
-            android:name=".MainActividad4"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <!--EJEMPLO NOTIFICACIONES -->
-        <activity
-            android:name=".NotificacionesActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!-- Actividades normales -->
+        <activity android:name=".PreferenciasActivity" />
+        <activity android:name=".OpcionesPreferencias" />
+
+        <activity android:name="ejercicios.Ej71" android:exported="true" />
+        <activity android:name=".OpcionesPreferenciasAct1" />
+
+        <activity android:name=".ToastActivity" android:exported="true" />
+
+        <activity android:name="ejercicios.Ej72" android:exported="true" />
+
+        <activity android:name=".DialogoActivity" android:exported="true" />
+
+        <activity android:name="ejercicios.Ej73" android:exported="true" />
+
+        <activity android:name="ejercicios.Ej74" android:exported="true" />
+
+        <activity android:name=".NotificacionesActivity" android:exported="true" />
+
         <activity
             android:name=".Segunda"
-            android:parentActivityName=".NotificacionesActivity">
-            <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".NotificacionesActivity" />
-        </activity>
-        <!--ACTIVIDAD 5 -->
-        <activity
-            android:name=".MainActividad5" android:exported="true"
             android:parentActivityName=".NotificacionesActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".NotificacionesActivity" />
         </activity>
+
+        <activity
+            android:name="ejercicios.Ej75"
+            android:exported="true"
+            android:parentActivityName=".NotificacionesActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NotificacionesActivity" />
+        </activity>
+
     </application>
 
 </manifest>

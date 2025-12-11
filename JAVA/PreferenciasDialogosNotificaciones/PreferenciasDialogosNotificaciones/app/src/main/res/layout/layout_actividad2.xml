@@ -5,14 +5,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".MainActividad2">
+    tools:context="ejercicios.Ej72">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Toast con EditText"
+        android:text="ANGEL MIGUEL FELIPE"
         android:textSize="18sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:textAlignment="center"/>
 
     <EditText
         android:id="@+id/editTextMensaje"
@@ -34,12 +35,7 @@
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Toast con SeekBar (Posición)"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+
 
     <SeekBar
         android:id="@+id/seekBarPosicion"
