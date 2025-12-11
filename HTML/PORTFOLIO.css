@@ -20,7 +20,7 @@ $raisin-black: hsla(334, 12%, 12%, 1);*/
 /* Body and layout */
 body {
     background-color: hsl(334, 11%, 10%);
-    background-image: url(https://png.pngtree.com/background/20230607/original/pngtree-some-red-roses-are-seen-here-in-a-dark-setting-picture-image_2902794.jpg);
+    /*background-image: url(https://png.pngtree.com/background/20230607/original/pngtree-some-red-roses-are-seen-here-in-a-dark-setting-picture-image_2902794.jpg);*/
     background-size: cover;
     display: flex;
     flex-direction: column;
