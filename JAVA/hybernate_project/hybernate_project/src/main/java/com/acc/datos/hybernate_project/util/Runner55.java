@@ -2,6 +2,7 @@ package com.acc.datos.hybernate_project.util;
 
 import com.acc.datos.hybernate_project.servicios.SetupService55;
 import com.acc.datos.hybernate_project.servicios.VerificarDatos;
+import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -23,7 +24,22 @@ public class Runner55 implements CommandLineRunner {
             service.createStructureAngel();
             verificar.verificar();
         }catch (Exception e){
-            e.printStackTrace();
+            Throwable cause = e;
+            boolean constraintViolationFound = false;
+
+            while (cause != null) {
+                if (cause instanceof ConstraintViolationException) {
+                    constraintViolationFound = true;
+                    break;
+                }
+                cause = cause.getCause();
+            }
+
+            if (constraintViolationFound) {
+                System.out.println("\u001B[31m ANGEL --> Constraint violation: no se puede duplicar valores \u001B[0m");
+            } else {
+                System.out.println(e.getMessage());
+            }
         }
     }
 }
