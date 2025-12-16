@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rpg"
+            android:icon="@drawable/ic_adventure"
+            android:title="ROL (RPG)" />
+        <item
+            android:id="@+id/nav_plataformas"
+            android:icon="@drawable/ic_tab_landscape"
+            android:title="PLATAFORMAS 2D" />
+        <item
+            android:id="@+id/nav_arcade"
+            android:icon="@drawable/ic_puzzle"
+            android:title="ARCADE / RETRO" />
+    </group>
+
+    <item android:title="MÁS OPCIONES">
+        <menu>
+            <item
+                android:id="@+id/nav_tutorial"
+                android:icon="@drawable/ic_gamepad"
+                android:title="Tutorial/Ayuda" />
+            <item
+                android:id="@+id/nav_salida"
+                android:icon="@drawable/ic_menu_add"
+                android:title="Salir del Juego" />
+        </menu>
+    </item>
+</menu>

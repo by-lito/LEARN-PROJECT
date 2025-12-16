@@ -33,7 +33,7 @@
                 android:id="@+id/button_accion_uno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Acción 1"
+                android:text="PULSA"
                 android:layout_margin="16dp" />
         </LinearLayout>
 

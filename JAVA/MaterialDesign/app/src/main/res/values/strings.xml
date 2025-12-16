@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
+    <string name="navigation_drawer_open">Abrir menú del juego</string>
+    <string name="navigation_drawer_close">Cerrar menú del juego</string>
 </resources>

@@ -25,29 +25,25 @@ public class ViewPageAdapter extends FragmentStateAdapter {
                 return ContenidoFragment.newInstance(
                         "Granjas -- Paz y tranquilidad",
                         R.raw.farming,
-                        "GRANJAS"
-                );
+                        "GRANJAS");
             case 1:
                 // Aventura
                 return ContenidoFragment.newInstance(
                         "Aventura -- Explora nuevos mundos",
                         R.raw.zelda,
-                        "AVENTURA!"
-                );
+                        "AVENTURA!");
             case 2:
                 // Deportes
                 return ContenidoFragment.newInstance(
                         "Música -- Siente el ritmo!",
                         R.raw.music,
-                        "MUSICA!"
-                );
+                        "MUSICA!");
             case 3:
                 // Estrategia
                 return ContenidoFragment.newInstance(
                         "Estrategia -- A pensar!",
                         R.raw.puzzles,
-                        "PUZZLES"
-                );
+                        "PUZZLES");
             default:
                 return new ContenidoFragment();
         }
