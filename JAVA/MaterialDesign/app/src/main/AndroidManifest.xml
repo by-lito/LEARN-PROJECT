@@ -24,6 +24,17 @@
         <activity android:name="ejercicios.Ej81"
             android:exported="true"/>
 
+        <activity android:name="ejercicios.Ej82"
+            android:exported="true"/>
+        <activity android:name="ejercicios.Ej83"
+            android:exported="true"/>
+        <activity android:name="ejercicios.Ej84"
+            android:exported="true"/>
+        <activity android:name="ejercicios.Ej85"
+            android:exported="true"/>
+        <activity android:name="ejercicios.Ej86"
+            android:exported="true"/>
+
 
     </application>
 

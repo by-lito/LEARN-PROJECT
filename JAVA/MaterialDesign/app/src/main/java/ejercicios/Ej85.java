@@ -1,4 +1,6 @@
 package ejercicios;
 
-public class Ej85 {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Ej85 extends AppCompatActivity {
 }
