@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class RunnerActividad7 implements CommandLineRunner {
 
     @Autowired

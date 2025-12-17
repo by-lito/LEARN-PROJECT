@@ -6,7 +6,7 @@ import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class Runner55 implements CommandLineRunner {
 
     SetupService55 service = new SetupService55();
