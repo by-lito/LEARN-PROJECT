@@ -1,36 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\LEARN-PROJECT\\.vs\\Ej2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{F834E412-7B53-4F1D-BF4F-B940AFBB6588}|Ej2\\Ej2.vbproj|d:\\learn-project\\.vs\\ej2\\ej2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{F834E412-7B53-4F1D-BF4F-B940AFBB6588}|Ej2\\Ej2.vbproj|solutionrelative:ej2\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\LEARN-PROJECT\\.vs\\Ej2\\Ej2\\Form1.vb",
-              "RelativeDocumentMoniker": "Ej2\\Form1.vb",
-              "ToolTip": "D:\\LEARN-PROJECT\\.vs\\Ej2\\Ej2\\Form1.vb [Dise\u00F1o]*",
-              "RelativeToolTip": "Ej2\\Form1.vb [Dise\u00F1o]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-09-26T06:31:06.312Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

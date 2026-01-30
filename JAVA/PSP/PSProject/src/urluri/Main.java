@@ -1,5 +1,6 @@
 package urluri;
 
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -13,9 +14,11 @@ public class Main {
         try {
             url = new URL("https://www.google.com");
             uri = new URI("https://www.google.com");
-            System.out.println(url.getPort() + " " + uri.getPort() + "\n" + url.getHost() + " " + uri.getHost());
+            System.out.println(url.getPort() + " " + uri.getPort() + "\n" + url.getHost() + " " + uri.getHost()
+            + "\n" + url.getPath() + " " + uri.getPath() + "\n" + url.getQuery() + " " + uri.getQuery()
+            + "\n" + url.getContent());
 
-        } catch (MalformedURLException | URISyntaxException e) {
+        } catch (URISyntaxException | IOException e) {
             throw new RuntimeException(e);
         }
     }

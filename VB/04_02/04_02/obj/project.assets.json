@@ -169,7 +169,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\": {},
+    "C:\\Users\\_Administrador_\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -179,7 +179,7 @@
       "projectUniqueName": "D:\\LEARN-PROJECT\\VB\\04_02\\04_02\\04_02.vbproj",
       "projectName": "04_02",
       "projectPath": "D:\\LEARN-PROJECT\\VB\\04_02\\04_02\\04_02.vbproj",
-      "packagesPath": "C:\\Users\\DAM2_Diurno\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\_Administrador_\\.nuget\\packages\\",
       "outputPath": "D:\\LEARN-PROJECT\\VB\\04_02\\04_02\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
@@ -187,7 +187,7 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\DAM2_Diurno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\_Administrador_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
