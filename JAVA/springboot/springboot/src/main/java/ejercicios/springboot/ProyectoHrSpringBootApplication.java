@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 // NOTA: Eliminaremos estos "exclude" en los pasos siguientes al configurar el sistema real.
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class,
         SecurityAutoConfiguration.class})
-public class ProyectoSpringBootApplication {
+public class ProyectoHrSpringBootApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootApplication.class, args);
+        SpringApplication.run(ProyectoHrSpringBootApplication.class, args);
     }
 }
