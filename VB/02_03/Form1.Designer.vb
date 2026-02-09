@@ -39,6 +39,7 @@ Partial Class Form1
         Me.rbTamFull = New System.Windows.Forms.RadioButton()
         Me.rbTamNormal = New System.Windows.Forms.RadioButton()
         Me.rbTamPequenio = New System.Windows.Forms.RadioButton()
+        Me.btnPDF = New System.Windows.Forms.Button()
         CType(Me.pcbImagen, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.gbColores.SuspendLayout()
         Me.gbPosicion.SuspendLayout()
@@ -253,12 +254,24 @@ Partial Class Form1
         Me.rbTamPequenio.Text = "Pequeño"
         Me.rbTamPequenio.UseVisualStyleBackColor = True
         '
+        'btnPDF
+        '
+        Me.btnPDF.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.btnPDF.Font = New System.Drawing.Font("Times New Roman", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPDF.Location = New System.Drawing.Point(15, 179)
+        Me.btnPDF.Name = "btnPDF"
+        Me.btnPDF.Size = New System.Drawing.Size(84, 23)
+        Me.btnPDF.TabIndex = 9
+        Me.btnPDF.Text = "PDF Form"
+        Me.btnPDF.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global._02_03.My.Resources.Resources._550e3548298b2533cb172ea7a3919dff
         Me.ClientSize = New System.Drawing.Size(514, 469)
+        Me.Controls.Add(Me.btnPDF)
         Me.Controls.Add(Me.gbTamanio)
         Me.Controls.Add(Me.gbPosicion)
         Me.Controls.Add(Me.gbColores)
@@ -295,4 +308,5 @@ Partial Class Form1
     Friend WithEvents rbTamFull As RadioButton
     Friend WithEvents rbTamNormal As RadioButton
     Friend WithEvents rbTamPequenio As RadioButton
+    Friend WithEvents btnPDF As Button
 End Class

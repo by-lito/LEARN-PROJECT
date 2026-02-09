@@ -11,3 +11,9 @@ D:\LEARN-PROJECT\VB\02_03\obj\Debug\02_03.exe
 D:\LEARN-PROJECT\VB\02_03\obj\Debug\02_03.xml
 D:\LEARN-PROJECT\VB\02_03\obj\Debug\02_03.pdb
 D:\LEARN-PROJECT\VB\02_03\obj\Debug\02_03.exe.config
+D:\LEARN-PROJECT\VB\02_03\bin\Debug\Interop.AcroPDFLib.dll
+D:\LEARN-PROJECT\VB\02_03\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\LEARN-PROJECT\VB\02_03\obj\Debug\Interop.AcroPDFLib.dll
+D:\LEARN-PROJECT\VB\02_03\obj\Debug\AxInterop.AcroPDFLib.dll
+D:\LEARN-PROJECT\VB\02_03\obj\Debug\02_03.vbproj.ResolveComReference.cache
+D:\LEARN-PROJECT\VB\02_03\obj\Debug\_02_03.Form2.resources

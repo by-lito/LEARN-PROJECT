@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\DAM2_Diurno\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\DAM2_Diurno\\.nuget\\packages",
+      "C:\\Users\\_Administrador_\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\_Administrador_\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
