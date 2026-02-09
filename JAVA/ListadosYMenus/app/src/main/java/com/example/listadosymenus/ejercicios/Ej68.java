@@ -41,6 +41,7 @@ public class Ej68 extends AppCompatActivity {
         datos.add(new Encapsulador(R.drawable.jellybean, "JELLY BEAN", "Google anunció Android 4.1 Jelly Bean(Gomita Confitada o Gominola)en la conferencia del 30 de junio de 2012. Basado en el núcleo de linux 3.0 .31.", false));
         datos.add(new Encapsulador(R.drawable.kitkat, "KITKAT", "Su nombre se debe a la chocolatina KitKat, de la empresa internacional Nestlé.Posibilidad de impresión mediante WIFI.WebViews basadas en el motor de Chromium.", false));
         datos.add(new Encapsulador(R.drawable.lollipop, "LOLLIPOP", "Incluye Material Design, un diseño intrépido, colorido, y sensible interfaz de usuario para las experiencias coherentes e intuitivos en todos los dispositivos.", false));
+        datos.add(new Encapsulador(R.drawable.hollow_knight,"ANGEL","NO SE",false));
 
         VersionAdapterSpinner adapter = new VersionAdapterSpinner(this, datos);
 
