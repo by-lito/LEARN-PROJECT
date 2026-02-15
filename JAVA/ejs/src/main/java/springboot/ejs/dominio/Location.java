@@ -1,78 +1,44 @@
 package springboot.ejs.dominio;
+
 import jakarta.persistence.*;
+import lombok.*;
+
+import java.util.List;
+
 @Entity
 @Table(name = "locations")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class Location {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "location_id")
+    @EqualsAndHashCode.Include
     private Long id;
+
+    @Column(name = "street_address", length = 40)
     private String streetAddress;
+
+    @Column(name = "postal_code", length = 12)
     private String postalCode;
+
+    @Column(nullable = false, length = 30)
     private String city;
+
+    @Column(name = "state_province", length = 25)
     private String stateProvince;
+
     @ManyToOne
     @JoinColumn(name = "country_id")
+    @ToString.Exclude
     private Country country;
-// TODO: Generar Getters y Setters y toString
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getStreetAddress() {
-        return streetAddress;
-    }
-
-    public void setStreetAddress(String streetAddress) {
-        this.streetAddress = streetAddress;
-    }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getStateProvince() {
-        return stateProvince;
-    }
-
-    public void setStateProvince(String stateProvince) {
-        this.stateProvince = stateProvince;
-    }
-
-    public Country getCountry() {
-        return country;
-    }
-
-    public void setCountry(Country country) {
-        this.country = country;
-    }
-
-    @Override
-    public String toString() {
-        return "Location{" +
-                "id=" + id +
-                ", streetAddress='" + streetAddress + '\'' +
-                ", postalCode='" + postalCode + '\'' +
-                ", city='" + city + '\'' +
-                ", stateProvince='" + stateProvince + '\'' +
-                ", country=" + country +
-                '}';
-    }
+    @OneToMany(mappedBy = "location")
+    @ToString.Exclude
+    private List<Department> departments;
 }

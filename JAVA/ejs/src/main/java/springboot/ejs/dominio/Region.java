@@ -1,46 +1,21 @@
 package springboot.ejs.dominio;
 
 import jakarta.persistence.*;
-
+import lombok.*; // Importamos todas las anotaciones de Lombok
 @Entity
 @Table(name = "regions")
+// --- BLOQUE LOMBOK ---
+@Data // Genera Getters, Setters, toString, equals, hashCode
+@NoArgsConstructor // Constructor vacío (Requerido por Hibernate)
+@AllArgsConstructor // Constructor con todos los argumentos (Para nosotros)
+// ---------------------
 public class Region {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "region_id")
     private Long id;
-
-    @Column(name = "region_name", nullable = false, length = 25)
+    @Column(name = "region_name", length = 25)
     private String regionName;
-
-    public Region() {}
-
-    public Region(String regionName) {
-        this.regionName = regionName;
-    }
-
-    // Getters y Setters
-
-    public Long getId() {
-        return id;
-    }
-
-    public String getRegionName() {
-        return regionName;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public void setRegionName(String regionName) {
-        this.regionName = regionName;
-    }
-
-    @Override
-    public String toString() {
-        return "Region{id=" + id + ", nombre='" + regionName + "'}";
-    }
+// ¡Observad qué limpia queda la clase! No hay ruido visual.
 }
 
