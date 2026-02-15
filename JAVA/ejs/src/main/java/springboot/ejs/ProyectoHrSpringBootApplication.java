@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 // 1. DataSourceAutoConfiguration: Evita error al no tener URL de Base de datos aún.
 // 2. SecurityAutoConfiguration: Evita que nos pida usuario/clave para ver el HTML de prueba.
 // NOTA: Eliminaremos estos "exclude" en los pasos siguientes al configurar el sistema real.
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class})
+@SpringBootApplication
 public class ProyectoHrSpringBootApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProyectoHrSpringBootApplication.class, args);
