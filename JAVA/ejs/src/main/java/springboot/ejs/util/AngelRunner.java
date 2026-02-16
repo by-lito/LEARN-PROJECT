@@ -8,7 +8,7 @@ import springboot.ejs.repositorios.EmployeeRepository;
 
 import java.util.List;
 
-@Component
+//@Component
 public class AngelRunner implements CommandLineRunner {
 
     private final EmployeeRepository employeeRepository;
