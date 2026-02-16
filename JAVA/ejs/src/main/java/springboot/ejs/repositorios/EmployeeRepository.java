@@ -13,6 +13,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 // SQL Generado aprox: SELECT * FROM employees WHERE salary > ?
     List<Employee> findBySalaryGreaterThan(BigDecimal salarioMinimo);
     List<Employee> findAllByOrderByLastNameAsc();
+    List<Employee> findBySalaryGreaterThanEqual(BigDecimal minSalary);
     // Podemos concatenar condiciones con 'And', 'Or'.
 // SQL: SELECT * FROM employees WHERE department_id IS NULL
     List<Employee> findByDepartmentIsNull();
