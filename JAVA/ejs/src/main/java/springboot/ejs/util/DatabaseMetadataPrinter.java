@@ -8,7 +8,7 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.ResultSet;
 
-@Component // Spring detectará esto y lo ejecutará al inicio
+//@Component // Spring detectará esto y lo ejecutará al inicio
 public class DatabaseMetadataPrinter implements CommandLineRunner {
     @Autowired
     private DataSource dataSource; // Inyectamos la conexión configurada en Paso 2
